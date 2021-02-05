@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Varela+Round&display=swap');
+/* font-family: 'Source Code Pro', monospace;
+font-family: 'Varela Round', sans-serif; */
+header{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+     
+
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+    background-image: url("../images/paper.jpg");
+    margin:0px;
+    padding:0px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Varela Round', sans-serif;
+}
+
+h4{
+    font-weight: normal;
+}
+
+img{
+    max-width: 1000px;
+    width:97%;
+    border: 5px rgb(41, 41, 41) solid;
+    border-radius: 5px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding: 20px;
+    border: 4px rgb(87, 87, 87) solid;
+    border-radius: 5px;
+    background-color: #d1c8bb;
+}
+.headerText{
+    position: absolute;
+    color: black;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    bottom: 8px;
+    left: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .headerText{
+        padding-bottom: 0px;
+        padding-left: 20px;
+        bottom: 0px;
+    }
+    .container{
+        width: 85%;
+    }
+  }
